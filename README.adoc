@@ -10,7 +10,7 @@ ____
 
 Secondly, run the anki2html executable with an APKG file as argument (like the ones at link:http://ankiweb.net/[ankiweb.net]):
 ____
-./anki2html ./Countries_of_the_World.apkg
+anki2html ./Countries_of_the_World.apkg
 ____
 
 An out folder will be created containing the dump:
