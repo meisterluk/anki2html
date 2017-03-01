@@ -15,7 +15,7 @@ ____
 
 An out folder will be created containing the dump:
 
-image:demo.png[alt="Example flashcards dump", caption="An example what the HTML dump looks like" width="404"]
+image:demo.png?raw=true[alt="Example flashcards dump", caption="An example what the HTML dump looks like", width="404"]
 
 cheers,
 meisterluk
