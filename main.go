@@ -39,8 +39,8 @@ const HTMLTemplate = `<!DOCTYPE html>
     }
     .flashcard > * { padding: 10px; margin: 10px; min-height: 200px; }
     .flashcard .delim { line-height: 200px; }
-    .flashcard .front { width: 40%; box-shadow: #FAA 0px 0px 10px; }
-    .flashcard .back { width: 40%; box-shadow: #AAF 0px 0px 10px; }
+    .flashcard .frontside { width: 40%; box-shadow: #FAA 0px 0px 10px; }
+    .flashcard .backside { width: 40%; box-shadow: #AAF 0px 0px 10px; }
     </style>
   </head>
 
@@ -59,11 +59,11 @@ const HTMLTemplate = `<!DOCTYPE html>
           <style type="text/css">
             {{index . 0}}
           </style>
-          <div class="front card">
+          <div class="frontside card">
             {{index . 1}}
           </div>
           <div class="delim">⇒</div>
-          <div class="back card">
+          <div class="backside card">
             {{index . 2}}
           </div>
           <div style="clear:both"></div>
